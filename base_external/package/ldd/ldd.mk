@@ -6,7 +6,7 @@
 ##############################################################
 
 # Define the usual meta-data to specify the version, archive name, remote URI where to find the package source, licensing information.
-LDD_VERSION = e2de689b550bb2b96b92bd8d438164f240f35488
+LDD_VERSION = e79aa0f52de614a3e18623e2a4b7a098a65ede0e
 LDD_SITE = git@github.com:cu-ecen-aeld/assignment-7-mukesh2006.git
 LDD_SITE_METHOD = git
 LDD_GIT_SUBMODULES = YES
