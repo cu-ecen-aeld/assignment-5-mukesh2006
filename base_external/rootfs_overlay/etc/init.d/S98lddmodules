@@ -39,7 +39,7 @@ case "$mode_w" in
         module_load "$FAULTY_MODULE" || error_exit "Failed to load $FAULTY_MODULE module"
         modprobe "$HELLO_MODULE" || error_exit "Failed to load $HELLO_MODULE module"
         ;;
-    
+
     stop)
         echo "Unloading modules..."
 
@@ -48,7 +48,7 @@ case "$mode_w" in
         module_unload "$FAULTY_MODULE" || error_exit "Failed to unload $FAULTY_MODULE module"
         rmmod "$HELLO_MODULE" || error_exit "Failed to remove $HELLO_MODULE module"
         ;;
-    
+
     *)
         error_exit "Invalid option! Valid options are 'start' or 'stop'."
         ;;
